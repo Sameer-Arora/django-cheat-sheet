@@ -78,6 +78,8 @@ INSTALLED_APPS = [
 	'app',
 	# ...
 ]
+The PollsConfig class is in the polls/apps.py file, so its dotted path is 'polls.apps.PollsConfig' to be included in the settings.py.
+
 ```
 - To migrate changes over:
 ```bash
